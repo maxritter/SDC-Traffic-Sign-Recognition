@@ -101,7 +101,7 @@ For the optimizer, I used the adam optimizer instead of stochastic gradient desc
 
 Those plots show the loss and accuracy over time:
 
-<img src="./images/loss_acc.PNG" width="600">
+<img src="./images/loss_acc.PNG" width="400">
 
 
 **Final Solution**
@@ -140,7 +140,7 @@ Here are the results of the prediction:
 
 <img src="./images/test_result.PNG" width="500">
 
-<img src="./images/predictions.PNG" width="400">
+<img src="./images/predictions.PNG" width="300">
 
 The test accuracy on the new test data is 90.00%, while it was 93.50% on the previous test data set. This is very comparable, so no under- or overfit is estimated.
 
@@ -148,7 +148,7 @@ The model was able to correctly guess 9 of the 10 traffic signs. It even correct
 
 **Model certainty**
 
-<img src="./images/test_dist.PNG" width="600">
+<img src="./images/test_dist.PNG" width="500">
 
 For all test images except for the last one, the network is really certain about its answer. The last one was indeed classified wrong, so it makes sense that the certainty is not so high here. 
 
